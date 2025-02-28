@@ -1,0 +1,16 @@
+# Ignorar archivos de configuración y sensibles
+wp-config.php
+.env
+
+# Ignorar caché y copias de seguridad
+wp-content/uploads/
+wp-content/cache/
+wp-content/backup/
+
+# Ignorar dependencias
+node_modules/
+vendor/
+
+# Ignorar archivos del sistema
+.DS_Store
+Thumbs.db
